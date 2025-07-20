@@ -1,10 +1,15 @@
 :root{
     --uni-color: rgb(68, 68, 252);
+    --text-style: 'Poppins', 'Nunito', sans-serif;
 }
 
 *{
     padding: 0px;
     margin: 0px;
+    /* background-color: rgb(184, 189, 251); */
+}
+body{
+    background-color: rgb(231, 231, 255);
 }
 
 header{
@@ -28,7 +33,7 @@ nav{
 
 nav h2{
     color: var(--uni-color);
-    font-family: 'Poppins', 'Nunito', sans-serif;
+    font-family: var(--text-style);
     font-weight: 700;
 }
 
@@ -55,7 +60,7 @@ nav button{
 .heading-div p{
     font-size: 50px;
     text-align: center;
-    font-family: 'Poppins', 'Nunito', sans-serif;
+    font-family: var(--text-style);
     font-weight: 700;
     text-shadow: 0px 3px 2px rgb(128, 128, 128);
 
@@ -68,4 +73,50 @@ nav button{
     border-radius: 10px;
     border: 0;
     padding:0px 20px 0px 20px;
+}
+
+.first-section{
+    /* border: 2px solid black; */
+    width: 900px;
+    height: 200px;
+    margin: 80px auto 0px auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 200px;
+
+}
+
+.first-section .action{
+    /* border: 2px solid black; */
+    height: 115px;
+
+}
+
+.first-section .action h2{
+    font-family: var(--text-style);
+}
+
+.first-section .action p{
+    /* border: 2px solid black; */
+    width: 280px;
+    margin: 10px 0px;
+    font-family: var(--text-style);
+    color: gray
+}
+
+.first-section .action button{
+    background-color: var(--uni-color);
+    color: white;
+    font-family: var(--text-style);
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 10px;
+
+}
+
+.first-section img{
+    width: 250px;
+    height: auto;
+    border-radius: 20px;
 }
