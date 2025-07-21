@@ -165,3 +165,63 @@ nav button{
     font-weight: 900;
     color: var(--uni-color)
 }
+
+.third-section{
+    width: 1200px;
+    height: 250px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    margin: 80px auto 20px auto;
+    align-items: center;
+    gap: 40px;
+    font-family: var(--text-style);
+}
+
+.third-section h2{
+    font-size: 30px;
+}
+
+.third-section .reviews{
+    display: flex;
+    /* border: 2px solid red; */
+    width: 800px;
+    justify-content: space-between;
+    
+}
+
+.third-section .reviews .says{
+    /* border: 2px solid green; */
+    padding: 10px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.third-section .reviews .says p{
+    color: black;
+    font-size: 13px;
+}
+.third-section .reviews .says .reviewer{
+    display: flex;
+    gap: 10px;
+}
+
+.third-section .reviews .says .reviewer img{
+    border-radius: 50%;
+}
+
+.third-section .reviews .says .reviewer .reviewer-name{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(115, 114, 114);
+}
+
+.third-section .reviews .says .reviewer .date{
+    font-size: 12px;
+    color: rgb(167, 164, 164);
+}
