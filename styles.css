@@ -265,3 +265,54 @@ nav button{
     border-radius: 20px;
 
 }
+
+.fifth-section{
+    /* border: 2px solid black; */
+    width: 850px;
+    margin: 90px auto 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 90px;
+}
+
+.fifth-section h1{
+    font-family: var(--text-style);
+    font-size: 65px;
+    padding: 10px;
+    /* border:2px solid black; */
+    width: 370px;
+}
+
+.fifth-section form{
+    /* border: 2px solid red; */
+    width: 365px;
+}
+.fifth-section form label{
+    display: block;
+    font-family: var(--text-style);
+    font-weight: bold;
+    margin: 10px 10px 10px 0px;
+}
+
+.fifth-section form input{
+    width: 340px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fifth-section form textarea{
+    padding: 10px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.fifth-section form button{
+    width: 370px;
+    background-color: var(--uni-color);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
