@@ -316,3 +316,40 @@ nav button{
     border-radius: 5px;
     padding: 10px 40px;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+footer h1{
+    font-family: var(--text-style);
+    color: var(--uni-color);
+    font-size: 50px;
+}
+
+footer p{
+    /* border: 2px solid black; */
+    width: 440px;
+    text-align: center;
+    padding: 10px;
+}
+
+footer nav{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    height: 40px;
+}
+
+footer nav a{
+    text-decoration: none;
+    color: gray;
+}
