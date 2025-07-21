@@ -1,6 +1,7 @@
 :root{
     --uni-color: rgb(68, 68, 252);
     --text-style: 'Poppins', 'Nunito', sans-serif;
+    --text-color: 
 }
 
 *{
@@ -9,7 +10,7 @@
     /* background-color: rgb(184, 189, 251); */
 }
 body{
-    background-color: rgb(231, 231, 255);
+    background-color: rgb(246, 246, 251);
 }
 
 header{
@@ -119,4 +120,48 @@ nav button{
     width: 250px;
     height: auto;
     border-radius: 20px;
+}
+
+.second-section{
+    display:flex;
+    flex-direction: column;
+    /* border: 2px solid blue; */
+    width: 790px;
+    margin: 80px auto 20px auto;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #e0dafd;
+    height: 150px;
+    justify-content: center;
+    border-radius: 20px;;
+}
+
+.second-section h2{
+    font-family: var(--text-style);
+}
+
+.second-section .data{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    width: 600px;
+}
+
+.second-section .data .sub-data{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    align-items: center;
+    font-family: var(--text-style);
+}
+
+.second-section .data .sub-data .caption{
+    color: rgb(93, 92, 92);
+}
+
+.second-section .data .sub-data .count{
+    font-size: 55px;
+    font-weight: 900;
+    color: var(--uni-color)
 }
