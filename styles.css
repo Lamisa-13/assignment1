@@ -300,12 +300,21 @@ nav button{
     height: 25px;
     padding: 10px;
     border-radius: 5px;
+    outline: none;
+    border: 1px solid blue;
+}
+.fifth-section form input:focus{
+    outline:none;
+    border: 1px solid blue;
 }
 
 .fifth-section form textarea{
     padding: 10px;
     resize: none;
     border-radius: 5px;
+    font-family: var(--text-style);
+    outline: none;
+    border: 1px solid blue;
 }
 
 .fifth-section form button{
