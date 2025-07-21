@@ -1,7 +1,6 @@
 :root{
     --uni-color: rgb(68, 68, 252);
     --text-style: 'Poppins', 'Nunito', sans-serif;
-    --text-color: 
 }
 
 *{
@@ -224,4 +223,45 @@ nav button{
 .third-section .reviews .says .reviewer .date{
     font-size: 12px;
     color: rgb(167, 164, 164);
+}
+
+
+.fourth-section{
+    /* border: 2px solid black; */
+    width: 800px;
+    margin: 80px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 30px;
+    font-family: var(--text-style);
+    background-color: white;
+    border-radius: 10px;
+}
+
+.fourth-section p{
+    font-size: 12px;
+    color: gray;
+}
+
+.fourth-section h1{
+    font-size: 35px;
+}
+
+.fourth-section button{
+    display: block;
+    width: 150px;
+    padding: 10px 20px;
+    background-color: var(--uni-color);
+    color: white;
+    border-radius: 10px;
+    border:0;
+}
+
+.fourth-section img{
+    width: 650px;
+    border-radius: 20px;
+
 }
